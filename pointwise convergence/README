@@ -1,0 +1,6 @@
+This code takes a sequences of functions and checks for a sampling of points between 0 and 1 how far into the sequence it will take 
+to be within any given epsilon range. It will then take this data and plot it.
+
+You can use The shape of the graph to help understand why one sequence might be uniformly convergent while another is pointwise convergent.
+
+Included is a test for epsilon one tenth and one-hundreth for the sequence x^n. also included is the epsilon one-tenth for the sequence x/n.
