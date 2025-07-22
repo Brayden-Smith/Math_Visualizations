@@ -1,0 +1,6 @@
+This code takes a sequences of functions which is presumed to already converge uniformly, and find the N value for which all points in [0,1] will be within the epsilon range.
+
+It does this by taking the point that has the highest error in the range, In this case 1, and interating until it is within the epislon range. Once it has hit this range we know
+that all other points will also converge at this level.
+
+Included in the folder is tests for epsilon .1 and .01 respectively.
